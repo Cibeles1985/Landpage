@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre Musas y Arpías - Fraseología Alemana</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-hero {
+            background: linear-gradient(135deg, #1e1b4b 0%, #4c1d95 50%, #1e1b4b 100%);
+        }
+        .coral-accent { color: #fda4af; }
+        .card-hover:hover { transform: translateY(-5px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 overflow-x-hidden">
+
+    <!-- Header / Hero Section -->
+    <header class="gradient-hero text-white py-24 px-6 relative">
+        <div class="max-w-5xl mx-auto relative z-10">
+            <div class="inline-block px-4 py-1 bg-white/10 border border-white/20 rounded-full text-xs font-semibold mb-8 backdrop-blur-sm tracking-widest uppercase">
+                Investigación Filológica • Universidad de Valladolid
+            </div>
+            <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
+                Entre Musas <br><span class="coral-accent">y Arpías</span>
+            </h1>
+            <p class="text-xl text-purple-100 max-w-2xl leading-relaxed mb-10 font-light">
+                Un estudio crítico sobre cómo la fraseología alemana perpetúa estereotipos de género y construye un imaginario colectivo sesgado a través del análisis de corpus.
+            </p>
+            <div class="flex flex-wrap gap-5 items-center">
+                <a href="#corpus" class="bg-white text-indigo-900 px-8 py-4 rounded-xl font-bold hover:bg-purple-50 transition-all shadow-lg">
+                    Explorar Corpus
+                </a>
+                <div class="flex items-center gap-4 text-purple-200 border-l border-white/20 pl-6">
+                    <div>
+                        <p class="text-sm opacity-70">Investigadora</p>
+                        <p class="font-bold text-white">Sara Barroso Tapia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Decorative elements -->
+        <div class="absolute top-0 right-0 w-1/3 h-full opacity-10 pointer-events-none">
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" class="w-full h-full">
+                <path fill="#FFFFFF" d="M44.7,-76.4C58.1,-69.2,69.2,-58.1,76.4,-44.7C83.7,-31.3,87.1,-15.6,85.6,-0.9C84,13.9,77.5,27.7,68.9,40.1C60.3,52.4,49.5,63.2,36.5,70.1C23.5,77,8.3,80,-6.1,78.2C-20.5,76.4,-34,69.8,-46,61.1C-58,52.4,-68.4,41.6,-75.4,28.8C-82.4,16.1,-86,1.4,-84.1,-12.6C-82.1,-26.7,-74.6,-40.1,-64,-50.8C-53.4,-61.5,-39.7,-69.5,-26,-74.9C-12.2,-80.3,1.6,-83,14.6,-82.1C27.6,-81.1,31.3,-83.6,44.7,-76.4Z" transform="translate(100 100)" />
+            </svg>
+        </div>
+    </header>
+
+    <!-- Overview Section -->
+    <section class="py-24 px-6 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-12">
+            <div class="space-y-5">
+                <div class="w-14 h-14 bg-purple-100 text-purple-700 rounded-2xl flex items-center justify-center shadow-inner">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor font-bold"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
+                </div>
+                <h3 class="text-2xl font-bold text-slate-800">La Hipótesis</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Las unidades fraseológicas (UF) no son neutras: vehiculan visiones dicotómicas y peyorativas que refuerzan roles normativos de género en la sociedad alemana.
+                </p>
+            </div>
+            <div class="space-y-5">
+                <div class="w-14 h-14 bg-indigo-100 text-indigo-700 rounded-2xl flex items-center justify-center shadow-inner">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" /></svg>
+                </div>
+                <h3 class="text-2xl font-bold text-slate-800">Metodología</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Análisis mixto combinando diccionarios especializados y el corpus <strong>TenTen23</strong> vía Sketch Engine para examinar la vigencia y el uso pragmático real.
+                </p>
+            </div>
+            <div class="space-y-5">
+                <div class="w-14 h-14 bg-emerald-100 text-emerald-700 rounded-2xl flex items-center justify-center shadow-inner">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
+                </div>
+                <h3 class="text-2xl font-bold text-slate-800">Aplicación DaF</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    Integración de la perspectiva crítica de género en el aula universitaria para niveles B1-B2, fomentando una competencia lingüística responsable.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Corpus Explorer -->
+    <section id="corpus" class="bg-slate-100 py-24 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl font-extrabold mb-4 text-slate-900">Anatomía de los Estereotipos</h2>
+                <div class="w-24 h-1.5 bg-purple-600 mx-auto rounded-full mb-6"></div>
+                <p class="text-slate-600 max-w-2xl mx-auto text-lg">
+                    Selección representativa de las unidades fraseológicas analizadas. Haz clic en los ejemplos para ver el contexto real del corpus.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- UF Item 1 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 card-hover relative flex flex-col justify-between">
+                    <div>
+                        <span class="inline-block px-3 py-1 bg-red-100 text-red-700 text-[10px] font-bold uppercase rounded-full mb-4">Peyorativa</span>
+                        <h4 class="text-xl font-bold text-indigo-900 mb-4 leading-tight italic">"Ein Mann, ein Wort; eine Frau, ein Wörterbuch"</h4>
+                        <p class="text-slate-700 text-sm leading-relaxed mb-6">
+                            Contrapone la supuesta fiabilidad y brevedad masculina frente a la "habladuría" excesiva atribuida a las mujeres.
+                        </p>
+                    </div>
+                    <div>
+                        <button onclick="toggleExample('ex1')" class="text-xs font-bold text-purple-600 hover:text-purple-800 flex items-center gap-2">
+                            <span id="btn-text-ex1">MOSTRAR EJEMPLO</span>
+                            <svg id="icon-ex1" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                        </button>
+                        <div id="ex1" class="hidden mt-4 p-4 bg-slate-50 border-l-4 border-purple-400 rounded text-xs text-slate-600 italic">
+                            "Zum einen haben Frauen einen größeren Wortschatz als Männer. Nicht umsonst sagt der Volksmund..."
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UF Item 2 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 card-hover relative flex flex-col justify-between">
+                    <div>
+                        <span class="inline-block px-3 py-1 bg-red-100 text-red-700 text-[10px] font-bold uppercase rounded-full mb-4">Peyorativa</span>
+                        <h4 class="text-xl font-bold text-indigo-900 mb-4 leading-tight italic">"Ihre Tage haben"</h4>
+                        <p class="text-slate-700 text-sm leading-relaxed mb-6">
+                            Eufemismo menstrual utilizado frecuentemente para deslegitimar las emociones o la racionalidad de la mujer.
+                        </p>
+                    </div>
+                    <div>
+                        <button onclick="toggleExample('ex2')" class="text-xs font-bold text-purple-600 hover:text-purple-800 flex items-center gap-2">
+                            <span id="btn-text-ex2">MOSTRAR EJEMPLO</span>
+                            <svg id="icon-ex2" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                        </button>
+                        <div id="ex2" class="hidden mt-4 p-4 bg-slate-50 border-l-4 border-purple-400 rounded text-xs text-slate-600 italic">
+                            "Es würde gleich klingeln und Gomez wird wahrscheinlich wieder ihre Tage haben..."
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UF Item 3 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 card-hover relative flex flex-col justify-between">
+                    <div>
+                        <span class="inline-block px-3 py-1 bg-amber-100 text-amber-700 text-[10px] font-bold uppercase rounded-full mb-4">Subordinada</span>
+                        <h4 class="text-xl font-bold text-indigo-900 mb-4 leading-tight italic">"Ein Mädchen für alles sein"</h4>
+                        <p class="text-slate-700 text-sm leading-relaxed mb-6">
+                            Persona encargada de tareas diversas y poco valoradas. Refleja una polivalencia subordinada de origen doméstico.
+                        </p>
+                    </div>
+                    <div>
+                        <button onclick="toggleExample('ex3')" class="text-xs font-bold text-purple-600 hover:text-purple-800 flex items-center gap-2">
+                            <span id="btn-text-ex3">MOSTRAR EJEMPLO</span>
+                            <svg id="icon-ex3" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                        </button>
+                        <div id="ex3" class="hidden mt-4 p-4 bg-slate-50 border-l-4 border-purple-400 rounded text-xs text-slate-600 italic">
+                            "Finn ist ein Mädchen für alles, jeder Auftrag wird prompt und reibungslos erledigt."
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UF Item 4 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 card-hover relative flex flex-col justify-between">
+                    <div>
+                        <span class="inline-block px-3 py-1 bg-indigo-100 text-indigo-700 text-[10px] font-bold uppercase rounded-full mb-4">Marcada</span>
+                        <h4 class="text-xl font-bold text-indigo-900 mb-4 leading-tight italic">"Die Hose anhaben"</h4>
+                        <p class="text-slate-700 text-sm leading-relaxed mb-6">
+                            Simboliza la autoridad doméstica. Al aplicarse a mujeres, se percibe como una inversión transgresora del rol tradicional.
+                        </p>
+                    </div>
+                    <div>
+                        <button onclick="toggleExample('ex4')" class="text-xs font-bold text-purple-600 hover:text-purple-800 flex items-center gap-2">
+                            <span id="btn-text-ex4">MOSTRAR EJEMPLO</span>
+                            <svg id="icon-ex4" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                        </button>
+                        <div id="ex4" class="hidden mt-4 p-4 bg-slate-50 border-l-4 border-purple-400 rounded text-xs text-slate-600 italic">
+                            "Iris verdient das Geld und hat die Hosen an, Erik versauert am Schreibtisch."
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UF Item 5 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 card-hover relative flex flex-col justify-between">
+                    <div>
+                        <span class="inline-block px-3 py-1 bg-red-100 text-red-700 text-[10px] font-bold uppercase rounded-full mb-4">Peyorativa</span>
+                        <h4 class="text-xl font-bold text-indigo-900 mb-4 leading-tight italic">"Haare auf den Zähnen haben"</h4>
+                        <p class="text-slate-700 text-sm leading-relaxed mb-6">
+                            Describe a una mujer asertiva como agresiva o poco femenina. Evalúa negativamente el liderazgo en las mujeres.
+                        </p>
+                    </div>
+                    <div>
+                        <button onclick="toggleExample('ex5')" class="text-xs font-bold text-purple-600 hover:text-purple-800 flex items-center gap-2">
+                            <span id="btn-text-ex5">MOSTRAR EJEMPLO</span>
+                            <svg id="icon-ex5" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                        </button>
+                        <div id="ex5" class="hidden mt-4 p-4 bg-slate-50 border-l-4 border-purple-400 rounded text-xs text-slate-600 italic">
+                            "Starke Frauen haben dann «Haare auf den Zähnen», Frauen que se defienden son «hysterisch»."
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UF Item 6 -->
+                <div class="bg-white p-8 rounded-3xl shadow-sm border border-slate-200 card-hover relative flex flex-col justify-between">
+                    <div>
+                        <span class="inline-block px-3 py-1 bg-red-200 text-red-800 text-[10px] font-bold uppercase rounded-full mb-4">Muy Peyorativa</span>
+                        <h4 class="text-xl font-bold text-indigo-900 mb-4 leading-tight italic">"Blöde / dumme Kuh"</h4>
+                        <p class="text-slate-700 text-sm leading-relaxed mb-6">
+                            Insulto animalizante que opera como mecanismo simbólico de deshumanización e insignificancia intelectual femenina.
+                        </p>
+                    </div>
+                    <div>
+                        <button onclick="toggleExample('ex6')" class="text-xs font-bold text-purple-600 hover:text-purple-800 flex items-center gap-2">
+                            <span id="btn-text-ex6">MOSTRAR EJEMPLO</span>
+                            <svg id="icon-ex6" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                        </button>
+                        <div id="ex6" class="hidden mt-4 p-4 bg-slate-50 border-l-4 border-purple-400 rounded text-xs text-slate-600 italic">
+                            "Er ruft der Stewardess hinterher: «Hey, dumme Kuh, bring mir auf der Stelle ein Bier.»"
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Findings Section -->
+    <section class="py-24 px-6 max-w-5xl mx-auto">
+        <div class="flex flex-col md:flex-row gap-16 items-center">
+            <div class="md:w-1/2 space-y-8">
+                <h2 class="text-4xl font-extrabold text-slate-900 leading-tight">Hallazgos Principales del Estudio</h2>
+                <div class="space-y-8">
+                    <div class="flex gap-6">
+                        <div class="shrink-0 w-12 h-12 bg-red-50 text-red-500 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2">Asimetría Valorativa</h4>
+                            <p class="text-slate-600 text-sm leading-relaxed">Las expresiones referidas a mujeres son más numerosas y tienden a estar más marcadas negativamente que las masculinas.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6">
+                        <div class="shrink-0 w-12 h-12 bg-indigo-50 text-indigo-500 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" /></svg>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2">Doble Vara de Medir</h4>
+                            <p class="text-slate-600 text-sm leading-relaxed">Cualidades positivas en hombres (fuerza, racionalidad) se devalúan en mujeres cuando se perciben como transgresiones de género.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6">
+                        <div class="shrink-0 w-12 h-12 bg-emerald-50 text-emerald-500 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold mb-2">Inercia Lingüística</h4>
+                            <p class="text-slate-600 text-sm leading-relaxed">A pesar de los avances legislativos, el repertorio fraseológico se resiste al cambio, manteniendo visiones obsoletas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 bg-indigo-900 rounded-[3rem] p-12 text-white relative shadow-2xl">
+                <div class="relative z-10">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-purple-400 mb-8 opacity-40" fill="currentColor" viewBox="0 0 24 24"><path d="M14.017 21L14.017 18C14.017 16.8954 14.9124 16 16.017 16H19.017C19.5693 16 20.017 15.5523 20.017 15V9C20.017 8.44772 19.5693 8 19.017 8H16.017C14.9124 8 14.017 7.10457 14.017 6V5C14.017 3.89543 14.9124 3 16.017 3H19.017C21.2261 3 23.017 4.79086 23.017 7V15C23.017 18.3137 20.3307 21 17.017 21H14.017ZM1.017 21L1.017 18C1.017 16.8954 1.91243 16 3.017 16H6.017C6.56928 16 7.017 15.5523 7.017 15V9C7.017 8.44772 6.56928 8 6.017 8H3.017C1.91243 8 1.017 7.10457 1.017 6V5C1.017 3.89543 1.91243 3 3.017 3H6.017C8.22614 3 10.017 4.79086 10.017 7V15C10.017 18.3137 7.33071 21 4.017 21H1.017Z" /></svg>
+                    <blockquote class="text-2xl font-light italic leading-relaxed mb-8">
+                        "La fraseología no solo refleja la visión del mundo de una comunidad, sino que contribuye activamente a su consolidación como un dispositivo ideológico que naturaliza jerarquías."
+                    </blockquote>
+                    <div class="h-1.5 w-16 bg-purple-400 rounded-full mb-4"></div>
+                    <p class="font-bold tracking-widest text-sm uppercase">Tesis Central del Estudio</p>
+                </div>
+                <!-- Abstract blobs -->
+                <div class="absolute -bottom-10 -right-10 w-48 h-48 bg-purple-800/30 rounded-full blur-3xl"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Didactic Section -->
+    <section class="bg-indigo-950 py-24 px-6 text-white overflow-hidden relative">
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <h2 class="text-4xl font-bold mb-8 italic leading-tight">Implementación en el aula DaF (B1-B2)</h2>
+            <p class="text-indigo-200 mb-16 text-lg max-w-2xl mx-auto font-light leading-relaxed">
+                Transformamos el aprendizaje léxico en un ejercicio de conciencia lingüística crítica. El estudiante no solo aprende la expresión, sino que cuestiona su origen y función.
+            </p>
+            <div class="grid md:grid-cols-2 gap-6 text-left">
+                <div class="bg-white/5 p-8 rounded-3xl border border-white/10 backdrop-blur-md hover:bg-white/10 transition-colors">
+                    <div class="flex items-center gap-4 mb-4">
+                        <span class="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center font-black text-white">1</span>
+                        <h4 class="font-bold text-xl">Contraste L1/L2</h4>
+                    </div>
+                    <p class="text-indigo-100/70 text-sm leading-relaxed">Identificar el <strong>Werturteil</strong> (juicio de valor) buscando equivalentes en español y analizando si la carga peyorativa se mantiene o cambia culturalmente.</p>
+                </div>
+                <div class="bg-white/5 p-8 rounded-3xl border border-white/10 backdrop-blur-md hover:bg-white/10 transition-colors">
+                    <div class="flex items-center gap-4 mb-4">
+                        <span class="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center font-black text-white">2</span>
+                        <h4 class="font-bold text-xl">Análisis Mediático</h4>
+                    </div>
+                    <p class="text-indigo-100/70 text-sm leading-relaxed">Uso de fragmentos de prensa real (Die Welt, FAZ) para ver cómo las UF se emplean hoy para describir figuras públicas o políticas.</p>
+                </div>
+            </div>
+        </div>
+        <!-- Decorative bg -->
+        <div class="absolute top-0 left-0 w-full h-full opacity-5 pointer-events-none">
+            <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                <defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="white" stroke-width="1"/></pattern></defs>
+                <rect width="100%" height="100%" fill="url(#grid)" />
+            </svg>
+        </div>
+    </section>
+
+    <!-- Footer / Citation -->
+    <footer class="bg-white py-20 px-6 border-t border-slate-200">
+        <div class="max-w-5xl mx-auto flex flex-col items-center">
+            <div class="flex flex-wrap justify-center gap-4 mb-10">
+                <div class="px-5 py-2 bg-slate-100 border border-slate-200 rounded-xl text-[10px] font-mono font-bold text-slate-500 tracking-tighter">
+                    ISSN: 1136-677X
+                </div>
+                <div class="px-5 py-2 bg-slate-100 border border-slate-200 rounded-xl text-[10px] font-mono font-bold text-slate-500 tracking-tighter">
+                    DOI: 10.12795/mAGAzin.2025.134.08
+                </div>
+            </div>
+            
+            <div class="text-center max-w-3xl">
+                <h5 class="font-bold text-slate-400 uppercase tracking-[0.3em] text-[10px] mb-6">Referencia Bibliográfica (APA)</h5>
+                <div class="bg-slate-50 p-8 rounded-[2rem] border border-slate-100 shadow-inner group">
+                    <p class="text-slate-600 text-sm leading-loose group-hover:text-indigo-900 transition-colors">
+                        Barroso Tapia, S. (2025). Entre musas y arpías: un estudio de corpus de la representación de la mujer en la fraseología alemana. <span class="italic font-semibold">Magazin</span>, 34, 94-108. <span class="text-purple-600">https://dx.doi.org/10.12795/mAGAzin.2025.134.08</span>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-slate-400 text-[10px] flex flex-col items-center gap-2">
+                <p>© 2025 Sara Barroso Tapia • Universidad de Valladolid</p>
+                <p class="font-bold text-slate-300">Publicado en Magazin 34 (2025/26)</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleExample(id) {
+            const el = document.getElementById(id);
+            const btnText = document.getElementById('btn-text-' + id);
+            const icon = document.getElementById('icon-' + id);
+            
+            if (el.classList.contains('hidden')) {
+                el.classList.remove('hidden');
+                el.classList.add('animate-fade-in-down');
+                btnText.textContent = 'OCULTAR EJEMPLO';
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                el.classList.add('hidden');
+                btnText.textContent = 'MOSTRAR EJEMPLO';
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+    </script>
+
+    <style>
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in-down {
+            animation: fadeInDown 0.4s ease forwards;
+        }
+    </style>
+</body>
+</html>
